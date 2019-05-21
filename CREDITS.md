@@ -52,3 +52,20 @@ Collecting git+https://github.com/s2t2/python-utils.git (from -r requirements.tx
     ----------------------------------------
 ERROR: Command "python setup.py egg_info" failed with error code 1 in /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-ms6__jf6/
 ```
+
+```sh
+(utils-import-env)  --->> pip install -r requirements.txt
+Collecting git+https://github.com/s2t2/python-utils.git (from -r requirements.txt (line 2))
+  Cloning https://github.com/s2t2/python-utils.git to /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-oiwltx6j
+  Running command git clone -q https://github.com/s2t2/python-utils.git /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-oiwltx6j
+    ERROR: Complete output from command python setup.py egg_info:
+    ERROR: running egg_info
+    creating pip-egg-info/MyUtils.egg-info
+    writing pip-egg-info/MyUtils.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/MyUtils.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/MyUtils.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/MyUtils.egg-info/SOURCES.txt'
+    error: package directory 'my_utils' does not exist
+    ----------------------------------------
+ERROR: Command "python setup.py egg_info" failed with error code 1 in /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-oiwltx6j/
+```
