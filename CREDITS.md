@@ -69,3 +69,5 @@ Collecting git+https://github.com/s2t2/python-utils.git (from -r requirements.tx
     ----------------------------------------
 ERROR: Command "python setup.py egg_info" failed with error code 1 in /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-oiwltx6j/
 ```
+
+  + https://docs.python.org/3/distutils/examples.html

@@ -31,3 +31,9 @@ Run tests:
 ```sh
 pytest
 ```
+
+## Checking Distribution
+
+```sh
+python setup.py check
+```
