@@ -7,5 +7,5 @@ setup(
     author="MJ Rossetti",
     author_email='prof.mj.rossetti@gmail.com',
     url="https://github.com/s2t2/python-utils",
-    packages=["distutils", "distutils.command"]
+    packages=["my_utils"]
 )

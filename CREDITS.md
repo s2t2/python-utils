@@ -35,3 +35,20 @@ ERROR: Files/directories not found in /private/var/folders/mz/hvngrdl93zvcjxv3bx
   + https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support
   + https://docs.python.org/3/distutils/setupscript.html
   + https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html
+
+``sh
+(utils-import-env)  --->> pip install -r requirements.txt
+Collecting git+https://github.com/s2t2/python-utils.git (from -r requirements.txt (line 2))
+  Cloning https://github.com/s2t2/python-utils.git to /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-ms6__jf6
+  Running command git clone -q https://github.com/s2t2/python-utils.git /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-ms6__jf6
+    ERROR: Complete output from command python setup.py egg_info:
+    ERROR: running egg_info
+    creating pip-egg-info/MyUtils.egg-info
+    writing pip-egg-info/MyUtils.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/MyUtils.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/MyUtils.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/MyUtils.egg-info/SOURCES.txt'
+    error: package directory 'distutils' does not exist
+    ----------------------------------------
+ERROR: Command "python setup.py egg_info" failed with error code 1 in /private/var/folders/mz/hvngrdl93zvcjxv3bxk2z7t80000gn/T/pip-req-build-ms6__jf6/
+```

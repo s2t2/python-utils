@@ -1,4 +1,4 @@
-from utils import to_usd
+from my_utils import to_usd
 
 def test_to_usd():
     # it should apply USD formatting
