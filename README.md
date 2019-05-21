@@ -1,4 +1,4 @@
-# Python Utility Functions
+# My Python Utility Functions
 
 ## Prerequisites
 
@@ -10,13 +10,12 @@
 pip install git+https://github.com/s2t2/python-utils.git
 ```
 
-## Setup
+## Usage
 
-Create and activate a new virtual environment:
+```py
+from my_utils import to_usd
 
-```sh
-conda create -n utils-env python=3.7
-conda activate utils-env
+print(to_usd(1234567890.5555555)) #> $1,234,567,890.56
 ```
 
 ## Testing
@@ -29,6 +28,6 @@ pip install pytest
 
 Run tests:
 
-``sh
+```sh
 pytest
 ```
