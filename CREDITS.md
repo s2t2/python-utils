@@ -71,3 +71,4 @@ ERROR: Command "python setup.py egg_info" failed with error code 1 in /private/v
 ```
 
   + https://docs.python.org/3/distutils/examples.html
+  + https://docs.python.org/3/installing/index.html#installing-index
